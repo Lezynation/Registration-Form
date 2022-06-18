@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+  }
+
+/* main {
+  background-image: url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+} */
+
+span{
+    color: hsl(0, 100%, 74%) ;
+}
+.left{
+    width: 30%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px  #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    justify-content:left;
+  align-items: left;
+  height: 100vh;
+  
+    
+}
+.upper{
+    width: 30%;
+    padding: 120px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color:  hsl(248, 32%, 49%) ;
+
+}
+.lower {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color:  #fff;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid hsl(249, 10%, 26%) ;
+  }
+
+  button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid hsl(249, 10%, 26%) ;
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+  }
+
+  h2{
+      font-size: 40px;
+      padding-bottom: 30px;
+  }
+
+
+
+
+  .container {
+      width: 100%;
+      min-height: 100vh;
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-size: cover;
+    background-position: center;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  .content-box {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 912px;
+  }
+
+  .text-box {
+      color: white;
+      width: 50%;
+      display: flex;
+      align-items: center;
+  }
+
+
+  .card {
+      background: white;
+      border-radius: 8px;
+      padding: 24px;
+  }
+
+  .ad-card {
+    background-color:  hsl(248, 32%, 49%) ;
+    padding: 16px 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .form-card {
+      width: auto;
+      min-width: 300px;
+      max-width: 480px;
+
+    }
+    
+
+
+@media screen and (max-width: 375px ) {
+    .content-box {
+        display: block;
+    }
+    .text-box {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    
+}
